@@ -91,7 +91,7 @@ Three public Gym task IDs are registered:
 The rollout script selects the matching policy, body prior, and hand prior checkpoint from `ckpts/` by default:
 
 ```bash
-./isaaclab.sh -p /path/to/CoorDex/scripts/rsl_rl/play_locomanip.py \
+python scripts/rsl_rl/play_locomanip.py \
   --task CoorDex-WalkGrab-Wuji-v0 \
   --headless --num_envs 1
 ```
@@ -99,7 +99,7 @@ The rollout script selects the matching policy, body prior, and hand prior check
 Checkpoint overrides are available when needed:
 
 ```bash
-./isaaclab.sh -p /path/to/CoorDex/scripts/rsl_rl/play_locomanip.py \
+python scripts/rsl_rl/play_locomanip.py \
   --task CoorDex-WalkPickTurn-Wuji-v0 \
   --checkpoint /path/to/policy.pt \
   --body-prior-checkpoint /path/to/body_prior.pt \
