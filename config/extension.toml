@@ -1,0 +1,15 @@
+[package]
+version = "0.1.0"
+title = "CoorDex"
+description = "CoorDex locomanip rollout tasks for IsaacLab."
+category = "robotics"
+keywords = ["isaaclab", "locomanip", "coordex"]
+
+[dependencies]
+"isaaclab" = {}
+"isaaclab_assets" = {}
+"isaaclab_rl" = {}
+"isaaclab_tasks" = {}
+
+[[python.module]]
+name = "coordex"
