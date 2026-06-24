@@ -10,7 +10,7 @@
 [![Isaac Lab](https://img.shields.io/badge/IsaacLab-2.2.0-silver)](https://isaac-sim.github.io/IsaacLab/v2.2.0/index.html)
 [![Python](https://img.shields.io/badge/python-3.11-blue.svg)](https://docs.python.org/3/whatsnew/3.11.html)
 
-[![Paper arXiv](https://img.shields.io/badge/Paper-arXiv-red?style=plastic&logo=arXiv&logoColor=red)](https://skevinci.github.io/coordex/)
+[![Paper arXiv](https://img.shields.io/badge/Paper-arXiv-red?style=plastic&logo=arXiv&logoColor=red)](https://arxiv.org/abs/2606.23680)
 [![Project Page](https://img.shields.io/badge/Project-Page-blue)](https://skevinci.github.io/coordex/)
 
 </div>
@@ -135,6 +135,20 @@ CoorDex
                     ├── walkpickturn_env_cfg.py  # WalkPickTurn environment config
                     ├── config/g1_wuji  # RSL-RL runner and agent config
                     └── mdp  # Actions, commands, observations, rewards, events, and terminations
+```
+
+## Citation
+If you find this work useful, please cite:
+```bibtex
+@misc{li2026coordexcoordinatingbodyhand,
+      title={CoorDex: Coordinating Body and Hand Priors for Continuous Dexterous Humanoid Loco-Manipulation}, 
+      author={Sikai Li and Shuning Li and Zhenyu Wei and Yunchao Yao and Chenran Li and Mingyu Ding},
+      year={2026},
+      eprint={2606.23680},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2606.23680}, 
+}
 ```
 
 ## Contact
